@@ -10,7 +10,7 @@ function [Lambda,Q] = stepwiseCFCPC(X,n,pmax,lmax)
 %       Q              eigenvectors pXp (CPC)
 % Reference: Stepwise Common Principal Components Trendafilov
 
-% Usama, Pedro, Andy
+% Usama,Fuleah,Pedro, Andy
 [ns,p,k]=size(X);
 nt = sum(n);
 Q = [];
